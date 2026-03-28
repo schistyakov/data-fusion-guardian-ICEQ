@@ -270,10 +270,10 @@ python run_coles.py          # 11 мин - CoLES pre-training
 python run_coles_refit.py    # 24 мин - refit + submission
 ```
 
-### Предобученные веса (в репозитории)
-- `coles_model.pt` — обученный CoLES энкодер (2.9 MB)
-- `coles_embeddings.parquet` — 256-dim эмбеддинги для 100K клиентов (181 MB)
-- `coles_seed_fb50.csv` — готовый сабмит (22 MB)
+### Предобученные веса
+- `coles_model.pt` — обученный CoLES энкодер (2.9 MB, в репо)
+- [`coles_embeddings.parquet`](https://disk.yandex.ru/d/u1A9SP00Tyn9aQ) — 256-dim эмбеддинги для 100K клиентов (181 MB, Яндекс.Диск)
+- `coles_seed_fb50.csv` — готовый сабмит (22 MB, в репо)
 
 ---
 
